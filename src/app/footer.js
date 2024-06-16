@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="flex justify-evenly items-center p-2 text-xs">
+        <footer className="flex justify-evenly items-center bg-gray-800 p-2 text-xs">
             <Link target='_blank' href="https://github.com/FrattiJ" className="">GitHub</Link>
             <Link target='_blank' href="https://www.linkedin.com/in/jacob-fratti/" className="">LinkedIn</Link>
             <Link href="/contact" className="">Contact</Link>
